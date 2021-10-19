@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/Muchezz/Machine_Learning_Microservice_API/tree/main.svg?style=svg)](https://circleci.com/gh/Muchezz/Machine_Learning_Microservice_API/tree/main)
 
 ## Project Overview
 
@@ -40,3 +40,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Making Predictions
+1. While docker application running: `./make_predictions.sh`
+2. While pod is up and running: `./make_predictions.sh`
